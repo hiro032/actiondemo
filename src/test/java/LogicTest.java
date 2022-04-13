@@ -9,4 +9,10 @@ class LogicTest {
         Logic logic = new Logic();
         assertEquals(logic.returnTrue(), Boolean.FALSE);
     }
+
+    @Test
+    void failTest() {
+        Logic logic = new Logic();
+        assertEquals(logic.returnTrue(), Boolean.FALSE);
+    }
 }
