@@ -7,7 +7,6 @@ class LogicTest {
     @Test
     void test() {
         Logic logic = new Logic();
-
         assertEquals(logic.returnTrue(), Boolean.FALSE);
     }
 }
