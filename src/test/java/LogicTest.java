@@ -15,4 +15,9 @@ class LogicTest {
         Logic logic = new Logic();
         assertEquals(logic.returnTrue(), Boolean.FALSE);
     }
+
+    @Test
+    void failTest2() {
+        assertEquals(Boolean.TRUE, Boolean.FALSE);
+    }
 }

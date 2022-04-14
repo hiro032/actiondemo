@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LogicTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-13T13:37:22" hostname="jangminbongs-MacBook-Pro.local" time="0.022">
+<testsuite name="LogicTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-04-14T10:01:17" hostname="hirouiMcBookPro" time="0.012">
   <properties/>
-  <testcase name="test()" classname="LogicTest" time="0.022">
+  <testcase name="failTest2()" classname="LogicTest" time="0.012">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
-	at LogicTest.test(LogicTest.java:11)
+	at LogicTest.failTest2(LogicTest.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
